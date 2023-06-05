@@ -1,7 +1,9 @@
 :root{
     --cor01: white;
     --cor02: #F6A254;
+    --cor022: #a84d18;
     --corfundo: #161516;
+    --corfundoNav: #161516fb;
 }
 
 body, html{
@@ -9,23 +11,40 @@ body, html{
     color: var(--cor01);
 }
 
+body{
+    padding-top: 70px;
+}
+
 
 /* NAVEGAÇÃO */
 header{
-    background-color: var(--corfundo);
+    background-color: var(--corfundoNav);
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.384);
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 15rem;
+    /* background-color: aqua; */
 }
 
 .nav-nome-gdf{
     display: flex;
     align-items: center;
     color: var(--cor02);
+}
+.nav-nome-gdf a{
+    color: var(--cor02);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-nome-gdf a:hover{
+    color: var(--cor022);
+    transition: 0.3s;
 }
 
 #nav-list{

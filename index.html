@@ -9,20 +9,21 @@
     <link rel="stylesheet" href="css/style-nav.css">
     <link rel="stylesheet" href="css/style-main.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     
 </head>
 <body>
     <header> 
         <nav class="nav-bar">
             <div class="nav-nome-gdf">
-                <h1 class="lateral_nav">&#60/GDF&#62</h1>
+                <h1 class="lateral_nav"><a href="#">&lsaquo;/GDF&rsaquo;</a></h1>
             </div>
             
             <div id="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#">Sobre mim</a></li>
-                    <li class="nav-item"><a href="#">Experiência</a></li>
-                    <li class="nav-item"><a href="#">Formação</a></li>
+                    <li class="nav-item"><a href="#biografia-scroll">Biografia</a></li>
+                    <li class="nav-item"><a href="#experiencia-scroll">Experiência</a></li>
+                    <li class="nav-item"><a href="#formacao-scroll">Formação</a></li>
                     <li class="nav-item"><a href="#">Projetos</a></li>
                 </ul>
             </div>
@@ -38,9 +39,9 @@
 
         <div class="menu-mobile">
             <ul>
-                <li class="nav-item"><a href="#">Sobre mim</a></li>
-                <li class="nav-item"><a href="#">Experiência</a></li>
-                <li class="nav-item"><a href="#">Formação</a></li>
+                <li class="nav-item"><a href="#biografia-scroll">Biografia</a></li>
+                <li class="nav-item"><a href="#experiencia-scroll">Experiência</a></li>
+                <li class="nav-item"><a href="#formacao-scroll">Formação</a></li>
                 <li class="nav-item"><a href="#">Projetos</a></li>
             </ul>
         </div>
@@ -72,21 +73,69 @@
                 <img class="icones-code" src="img/icones-code/figma.png" alt="Figma" onmouseover="changeImage(this)" onmouseout="restoreImage(this)">
             </div>
         </section>
-        <article class="caixa-de-texto">
-            <h2>Sobre mim:</h2>
-            <p>Olá! Sou Guilherme Fabretti, estudante de Ciência da Computação na FUMEP EEP, em Piracicaba, altamente motivado em ingressar no mercado de trabalho na área de tecnologia.</p>
-            <p>Apesar de não possuir experiência anterior, tenho habilidades em programação e resolução de problemas, adquiridas por meio de projetos e competições, como a Olimpíada Brasileira de Robótica (OBR). Estou comprometido em aplicar minhas habilidades e conhecimentos para contribuir positivamente com a empresa e sua equipe.</p>
-            <p>Além da programação, realizei um curso de aprendizagem industrial no SENAI, onde consegui desenvolver habilidades com maquinas e equipamentos da mecânica industrial, como tornos, fresas e paquímetros. Além disso, tive experiência com o torno CNC e sua linguagem de programação g-code.</p>
-            <p>Destaco ainda, minha capacidade de aprender rapidamente e minha dedicação para atingir objetivos. Além disso, possuo habilidades de trabalho em equipe, liderança, comunicação e organização.</p>
-            <div id="botao-2">
-                <button class="botao-1">Baixar currículo</button>
-            </div>
-            <div id="redes-sociais">
-                <a href=""><img src="img/github.png" alt="GitHub"></a>
-                <a href=""><img src="img/instagram.png" alt="Instagram"></a>
-                <a href=""><img src="img/whatsapp.png" alt="WhatsApp"></a>
+        <article class="caixa-de-texto" id="biografia-scroll">
+            <div class="caixa-de-texto__conteudo">
+                <h2>Biografia:</h2>
+                <p>Olá! Sou Guilherme Defavori Fabretti, estudante de Ciência da Computação na FUMEP EEP, em Piracicaba, altamente motivado em ingressar no mercado de trabalho na área de tecnologia.</p>
+                <p>Apesar de não possuir experiência anterior, tenho habilidades em programação e resolução de problemas, adquiridas por meio de projetos e competições, como a Olimpíada Brasileira de Robótica (OBR). Estou comprometido em aplicar minhas habilidades e conhecimentos para contribuir positivamente com a empresa e sua equipe.</p>
+                <p>Além da programação, realizei um curso de aprendizagem industrial no SENAI, onde consegui desenvolver habilidades com maquinas e equipamentos da mecânica industrial, como tornos, fresas e paquímetros. Além disso, tive experiência com o torno CNC e sua linguagem de programação g-code.</p>
+                <p>Destaco ainda, minha capacidade de aprender rapidamente e minha dedicação para atingir objetivos. Além disso, possuo habilidades de trabalho em equipe, liderança, comunicação e organização.</p>
+                <div id="botao-2">
+                    <button class="botao-1" onclick="window.open('doc/curriculo.pdf', '_blank')">Baixar currículo</button>
+                </div>
+                <div id="redes-sociais">
+                    <a href="https://github.com/guifabretti" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+                    <a href="https://www.instagram.com/guifabretti_/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+                    <a href="https://wa.me/5519999684545" target="_blank"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+                    <a href="https://www.linkedin.com/in/guilhermefabretti/" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a>
+                </div>
             </div>
         </article>
+
+
+        <section class="caixa-experiencia" id="experiencia-scroll">
+            <h2>Experiência</h2>
+            <div class="experiencia__wrapper">
+                <section class="experiencia__abas">
+                    <ul>
+                        <li data-tab="0">...</li>
+                        <li data-tab="1">OBR</li>
+                        <li data-tab="2">Senai</li>
+                        <li data-tab="3">Faculdade</li>
+                    </ul>
+                </section>
+                <div class="experiencia__descricao">
+                    <section id="primeira_exp">
+                        <p>Em busca da minha primeira experiência Profissional :)</p>
+                        <br>
+                        <p class="texto_cor">Quem sabe possa ser na sua empresa?</p>
+                        <br>
+                        <p>Estou disponível para bater um bapo, você pode entrar em contato via <strong>e-mail</strong>, <strong>WhatsApp</strong>, <strong>Telegram</strong> ou <strong>Instagram</strong></p>
+                    </section>
+                    <section id="obr">
+                        <p>Olimpíada Brasileira de Robótica (OBR)</p>
+                        <br>
+                        <p>Meu primeiro contato com a programação, já começando com o <strong>Arduíno</strong> e sua linguagem C++. Adquiri experiencia no trabalho em equipe, resolução de problemas e lógica de programação.</p>
+                    </section>
+                    <section id="senai">
+                        <p>Senai Alvares Romi - Santa Bárbara d’Oeste</p>
+                        <br>
+                        <p>No Senai realizei o curso de <strong>aprendizagem industrial</strong>, contando com conhecimentos de <strong>indústria 4.0</strong>, LGPD, aplicativos OFFICE, AutoCAD, Torno CNC com sua linguagem <strong>g-code</strong>, economia circular e fundamentos de logística.</p>
+                    </section>
+                    <section id="faculdade">
+                        <p>Ciência da Computação, FUMEP EEP</p>
+                        <br>
+                        <p>Atualmente fazendo o <strong>primeiro semestre</strong> na Escola de Engenharia de Piracicaba, pretendendo realizar <strong>todos</strong> os projetos, competições e atividades que a faculdade propõe.</p>
+                        <br>
+                        <p>Você pode visualizar o andamento das aulas nos meus <strong>repositórios</strong> do GitHub.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="caixa-de-texto" id="formacao-scroll">
+
+        </section>
     </main>
     
     
@@ -95,5 +144,6 @@
 
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/experiencia.js"></script>
 </body>
 </html>

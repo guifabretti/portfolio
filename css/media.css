@@ -22,6 +22,18 @@
         display: block;
     }
 
+    .caixa-de-texto p{
+        text-indent: 40px;
+        margin-bottom: 7px;
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    .caixa-de-texto__conteudo{
+        margin: auto;
+        width: 90%;
+    }
+
     /* HAMBURGUER */
     label{
         display: block;
@@ -89,6 +101,9 @@
         box-shadow: 2px -2px 0px 1px var(--cor02);
         width: 35vw;
         max-width: 350px;
+    }
+    .experiencia__wrapper{
+        gap: 20px;
     }
 }
 
