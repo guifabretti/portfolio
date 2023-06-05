@@ -105,6 +105,17 @@
     .experiencia__wrapper{
         gap: 20px;
     }
+    ::-webkit-scrollbar{
+        width: 4px;
+        background-color: #373737;
+    }
+    ::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-color: #F6A254;
+    }
+    #botao-2{
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 620px) and (max-width: 750px){

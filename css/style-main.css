@@ -57,7 +57,7 @@ html{
 
 #botao-2{
     text-align: center;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 
 #grupo-icones{
@@ -164,3 +164,68 @@ html{
     font-weight: 500;
 }
 
+.formacao-div_pequena{
+    background-color: transparent;
+    border: 2px solid var(--cor02);
+    border-radius: 10px;
+    padding: 10px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+}
+.formacao-div_grande{
+    background-color: transparent;
+    border: 2px solid var(--cor02);
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.formacao-div_grande:hover{
+    /* background-color: #161616; */
+    transition: 0.3s;
+    scale: 1.01;
+}
+.formacao-div_pequena:hover{
+    /* background-color: #161616; */
+    transition: 0.3s;
+    scale: 1.01;
+}
+
+#formacao-tudo{
+    width: 70%;
+    margin: auto;
+}
+
+#formacao-todas-div{
+    display: flex;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#titulo-formacao{
+    text-align: center;
+    font-size: 90px;
+    color: #222222;
+}
+.tipo_curso{
+    color: #ACACAC;
+    font-weight: 500;
+    font-size: 20px;
+}
+.nome_curso{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.onde_curso{
+    font-size: 14px;
+    color: #ACACAC;
+}
+.data_curso{
+    font-size: 17px;
+    font-weight: 500;
+    color: #ACACAC;
+}

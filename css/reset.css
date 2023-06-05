@@ -7,3 +7,12 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #373737;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #F6A254;
+}
