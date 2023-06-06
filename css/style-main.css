@@ -1,7 +1,7 @@
 :root{
     --cor01: white;
     --cor02: #F6A254;
-    --corfundo: #191919;
+    --corfundo: #131313;
     --corfundo2: #111111;
     --cor03: #373737;
 }
@@ -222,7 +222,7 @@ html{
 #titulo-formacao{
     text-align: center;
     font-size: 90px;
-    color: var(--corfundo);
+    color: #232323;
 }
 .tipo_curso{
     color: #ACACAC;
