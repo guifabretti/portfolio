@@ -10,6 +10,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    letter-spacing: 1px;
+}
+
 #grupo-principal{
     margin: 50px auto;
     width: 80%;
@@ -217,6 +221,7 @@ html{
     row-gap: 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 50px;
 }
 
 #titulo-formacao{
@@ -241,4 +246,69 @@ html{
     font-size: 17px;
     font-weight: 500;
     color: #ACACAC;
+}
+
+#projetos-scroll{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#div-tudo-projetos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+    margin-bottom: 5rem;
+}
+
+.projetos-img{
+    border-left: 6px solid var(--cor02);
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.projetos-img:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+    border-color: #a84d18;
+}
+
+.projetos{
+    width: 90%;
+}
+
+.h3-projetos{
+    margin: 40px 0px 40px 0px;
+    color: #ACACAC;
+}
+.p1-projetos{
+    margin: 20px 0px 30px 0px;
+    color: #ACACAC;
+}
+.p2-projetos{
+    margin: 20px 0px 20px 0px;
+    color: var(--cor02);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+#titulo-projetos{
+    margin-bottom: 40px;
+}
+
+.link-projeto{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    border: 2px solid var(--cor02);
+    border-radius: 10px;
+    width: 33%;
+    padding: 15px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.link-projeto:hover{
+    text-shadow: 1px 1px 2px var(--cor02);
+    background-color: rgba(66, 66, 66, 0.226);
+    transition: 0.3s;
+    border-color: #a84d18;
 }

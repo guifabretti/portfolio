@@ -180,6 +180,7 @@
     }
     .formacao-div_pequena p{
         line-height: 24px;
+        letter-spacing: normal;
     }
     .tipo_curso{
         color: #ACACAC;
@@ -201,6 +202,51 @@
     }
     #formacao-todas-div{
         row-gap: 10px;
+    }
+
+    #titulo-projetos{
+        text-align: center;
+    }
+
+    .projetos{
+        width: 100%;
+    }
+
+    #div-tudo-projetos{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 5%;
+        margin-bottom: 10rem;
+    }
+
+    #projetos-scroll{
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .projetos-img{
+        border-left: 5px solid var(--cor02);
+        width: 100%;
+    }
+
+    .projetos__wrapper {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 5%;
+        margin-bottom: 10rem;
+    }
+
+    .texto-projetos{
+        text-align: center;
+    }
+
+    .link-projeto{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        padding: 10px;
+        margin: auto;
     }
 }
 

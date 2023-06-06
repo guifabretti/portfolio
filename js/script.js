@@ -12,7 +12,7 @@ function changeImage(element) {
     element.setAttribute('data-original-src', element.src);
 
     if (element.alt === 'HTML5') {
-        element.src = '/img/icones-code-hover/html-5.png';
+        element.src = 'img/icones-code-hover/html-5.png';
     } else if (element.alt === 'CSS3') {
         element.src = 'img/icones-code-hover/css-3.png';
     } else if (element.alt === 'JavaScript') {
