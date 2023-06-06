@@ -3,7 +3,7 @@
     --cor02: #F6A254;
     --cor022: #a84d18;
     --corfundo: #272727;
-    --corfundoNav: #161516fb;
+    --corfundoNav: #161616;
 }
 
 body, html{
@@ -66,12 +66,12 @@ header{
 .nav-item a::after{
     content: '';
     width: 0%;
-    height: 1px;
-    background-color: var(--cor01);
+    height: 1.5px;
+    background-color: var(--cor02);
     position: absolute;
     left: 0px;
     bottom: -2px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 .nav-item a:hover::after{
     width: 100%;

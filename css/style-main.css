@@ -75,7 +75,6 @@ body{
     height: 11vw;
     max-height: 75px;
     transition: transform 0.2s ease;
-    cursor: pointer;
 }
 .icones-code:hover {
     transform: scale(1.05);
@@ -197,12 +196,12 @@ body{
 .formacao-div_grande:hover{
     /* background-color: #161616; */
     transition: 0.3s;
-    scale: 1.01;
+    background-color: rgba(66, 66, 66, 0.226);
 }
 .formacao-div_pequena:hover{
     /* background-color: #161616; */
     transition: 0.3s;
-    scale: 1.01;
+    background-color: rgba(66, 66, 66, 0.226);
 }
 .formacao-div_grande p{
     margin-left: -25px;

@@ -1,0 +1,26 @@
+:root{
+    --cor01: white;
+    --cor02: #F6A254;
+    --cor022: #a84d18;
+    --corfundo: #131313;
+    --corfundo2: #111111;
+    --cor03: #373737;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: var(--corfundo2);
+    color: #ACACAC;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor02);
+    font-weight: bold;
+    transition: 0.3s;
+}
+footer a:hover{
+    color: var(--cor022);
+    transition: 0.3s;
+}
