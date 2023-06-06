@@ -22,7 +22,7 @@
         display: block;
     }
 
-    .caixa-de-texto p{
+    .caixa-de-texto .caixa-de-texto__conteudo p{
         text-indent: 40px;
         margin-bottom: 7px;
         line-height: 22px;
@@ -116,6 +116,77 @@
     #botao-2{
         margin-top: 10px;
     }
+    .experiencia__wrapper{
+        flex-direction: column;
+    }
+
+    .experiencia__abas ul{
+        padding-top: 15px;
+    }
+    .experiencia__abas li{
+        padding: 20px;
+        width: 600px;
+        border-top: 2px solid #272727;
+        border-left: none;
+        transition: 0.5s;
+        text-align: center;
+    }
+    .experiencia__abas li:hover{
+        background-color: #272727;
+        transition: 0.5s;
+    }
+    .experiencia__abas .ativo{
+        border-top: 2px solid var(--cor02);
+        background-color: #f6a2540e;
+        border-left: none;
+    }
+    .caixa-experiencia h2{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    #titulo-formacao{
+        text-align: center;
+        font-size: 70px;
+        color: var(--corfundo);
+    }
+    #formacao-tudo{
+        width: 90%;
+        margin: auto;
+    }
+    .formacao-div_pequena{
+        background-color: transparent;
+        border: 2px solid var(--cor02);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 190px;
+    }
+    .formacao-div_grande{
+        background-color: transparent;
+        border: 2px solid var(--cor02);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 400px;
+    }
+    .tipo_curso{
+        color: #ACACAC;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .nome_curso{
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    .onde_curso{
+        font-size: 12px;
+        color: #ACACAC;
+    }
+    .data_curso{
+        font-size: 14px;
+        font-weight: 500;
+        color: #ACACAC;
+    }
 }
 
 @media screen and (min-width: 620px) and (max-width: 750px){
@@ -128,10 +199,16 @@
     .botao-1{
         font-size: 16px;
     }
+    .nav-bar{
+        padding: 1.5rem 5rem;
+    }
 }
 
 @media screen and (min-width: 1000px){
     #grupo-principal{
         gap: 100px;
+    }
+    .nav-bar{
+        padding: 1.5rem 15rem;
     }
 }
