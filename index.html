@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style-main.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     
 </head>
@@ -49,15 +50,15 @@
     </header>
    
     <main>
-        <section id="grupo-principal">
+        <section id="grupo-principal"  data-aos="fade-in">
             <img id="foto-perfil" src="img/fotodeperfil.jpg" alt="">
             <div id="texto-principal">
                 <h1>Olá, eu sou Guilherme</h1>
-                <p>Desenvolvedor Front End</p>
+                <p  class="typing-animation">Estudante de Ciência da Computação</p>
                 <a href="#projetos-scroll"><button class="botao-1" >Meus projetos</button></a>
             </div>
         </section>
-        <section id="grupo-icones">
+        <section id="grupo-icones" data-aos="fade-in">
             <div id="html">
                 <img class="icones-code" src="img/icones-code/html-5.png" alt="HTML5" onmouseover="changeImage(this)" onmouseout="restoreImage(this)">
             </div>
@@ -75,9 +76,9 @@
             </div>
         </section>
         <article class="caixa-de-texto" id="biografia-scroll">
-            <div class="caixa-de-texto__conteudo">
+            <div class="caixa-de-texto__conteudo" data-aos="fade-up">
                 <h2>Sobre mim:</h2>
-                <p>Olá! Sou Guilherme Defavori Fabretti, estudante de Ciência da Computação na FUMEP EEP, em Piracicaba, altamente motivado em ingressar no mercado de trabalho na área de tecnologia.</p>
+                <p>Olá! Sou Guilherme Defavori Fabretti, tenho 18 anos e sou estudante de Ciência da Computação na FUMEP EEP, em Piracicaba, altamente motivado em ingressar no mercado de trabalho na área de tecnologia.</p>
                 <p>Tenho habilidades em programação e resolução de problemas, adquiridas por meio de projetos e competições, como a Olimpíada Brasileira de Robótica (OBR). Estou comprometido em aplicar minhas habilidades e conhecimentos para contribuir positivamente com a empresa e sua equipe.</p>
                 <p>Além da programação, realizei um curso de aprendizagem industrial no SENAI, onde consegui desenvolver habilidades com maquinas e equipamentos da mecânica industrial, como tornos, fresas e paquímetros. Além disso, tive experiência com o torno CNC e sua linguagem de programação g-code.</p>
                 <p>Destaco ainda, minha capacidade de aprender rapidamente, minha dedicação para atingir objetivos, trabalho em equipe, liderança, comunicação e organização.</p>
@@ -95,7 +96,7 @@
         </article>
 
 
-        <section class="caixa-experiencia" id="experiencia-scroll">
+        <section class="caixa-experiencia" id="experiencia-scroll" data-aos="fade-up">
             <h2>Experiência:</h2>
             <div class="experiencia__wrapper">
                 <section class="experiencia__abas">
@@ -133,10 +134,9 @@
                     </section>
                 </div>
             </div>
-        </section>
-
+        </section> 
         <section class="caixa-de-texto" id="formacao-scroll">
-            <div id="formacao-tudo">
+            <div id="formacao-tudo" data-aos="fade-right">
                 <h2 id="titulo-formacao">Formação:</h2> 
                 <div id="formacao-todas-div">
                     <div class="formacao-div_grande">
@@ -191,7 +191,7 @@
             </div>
         </section>
 
-        <section id="projetos-scroll">
+        <section class="projetos-scroll" id="projetos-scroll" data-aos="fade-up">
             <h2 id="titulo-projetos">Projetos:</h2>   
             <div id="div-tudo-projetos">
                 <div class="projetos">
@@ -218,6 +218,30 @@
                         </a>
                     </div>
                 </div>
+                <div class="projetos">
+                    <div class="default"><img class="projetos-img"></div>
+                    <div class="texto-projetos">
+                        <h3 class="h3-projetos">Em desenvolvimento...</h3>
+                        <p class="p1-projetos">Atualizações em breve</p>
+                        <p class="p2-projetos">Novos projetos com novas tecnologias</p>
+                        <a href="#" class="link-projeto" target="_blank">
+                            <img src="img/ligacao.png" alt="icon-link">
+                            <p>Visualizar</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="projetos">
+                    <div class="default"><img class="projetos-img"></div>
+                    <div class="texto-projetos">
+                        <h3 class="h3-projetos">Em desenvolvimento...</h3>
+                        <p class="p1-projetos">Atualizações em breve</p>
+                        <p class="p2-projetos">Novos projetos com novas tecnologias</p>
+                        <a href="#" class="link-projeto" target="_blank">
+                            <img src="img/ligacao.png" alt="icon-link">
+                            <p>Visualizar</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -227,6 +251,11 @@
     </footer>
     <script src="js/script.js"></script>
     <script src="js/experiencia.js"></script>
-    <script src="js/scroll.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1250
+      });
+    </script>
 </body>
 </html>

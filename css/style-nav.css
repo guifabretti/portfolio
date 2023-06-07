@@ -18,9 +18,9 @@ body{
 
 /* NAVEGAÇÃO */
 header{
+    position: fixed;
     background-color: var(--corfundoNav);
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.384);
-    position: fixed;
     width: 100%;
     top: 0;
 }
