@@ -93,7 +93,7 @@
     #grupo-principal{
         width: 90%;
         display: flex;
-        gap: 30px;
+        gap: 10px;
         margin-bottom: 40px;
     }
     #grupo-icones{
@@ -262,7 +262,7 @@
         width: 100%;
         height: 125px;
     }
-    .default-img:hover{
+    .default:hover{
         scale: 1.03;
     }
 }
@@ -284,9 +284,16 @@
 
 @media screen and (min-width: 1000px){
     #grupo-principal{
-        gap: 100px;
+        gap: 150px;
     }
     .nav-bar{
         padding: 1.5rem 15rem;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1400px) {
+    #div-tudo-projetos{
+        grid-template-columns: 1fr;
+        margin-bottom: 40rem;
     }
 }
