@@ -190,6 +190,7 @@ body{
 .experiencia__abas li:hover{
     background-color: #272727;
     transition: 0.5s;
+    cursor: pointer;
 }
 .experiencia__abas .ativo{
     border-left: 2px solid var(--cor02);
