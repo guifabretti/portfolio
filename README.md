@@ -1,2 +1,2 @@
-# portifolio
- Desenvolvimento do meu próprio portifólio
+# portfolio
+ Desenvolvimento do meu próprio portfólio
