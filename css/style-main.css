@@ -86,6 +86,7 @@ body{
     cursor: pointer;
     font-weight: 500;
     transition: 0.7s;
+    font-size: 19px;
 }
 
 #botao-2{
@@ -297,7 +298,7 @@ body{
     transition: 0.3s ease-in-out;
 }
 .projetos-img:hover{
-    scale: 1.1;
+    scale: 1.02;
     transition: 0.3s ease-in-out;
     border-color: #a84d18;
 }

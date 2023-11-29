@@ -99,6 +99,7 @@
         margin-bottom: 40px;
     }
     #grupo-icones{
+        display: none;
         margin-bottom: 30px;
     }
     .botao-1{
